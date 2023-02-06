@@ -1,0 +1,147 @@
+body {
+    background-image: url(../images/Grapefruit\ Sunset.png);
+    /* background-color: rgb(78, 85, 92); */
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  textarea{
+      /*change font*/
+    background: white;
+    border: none;
+    resize: none;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: black;
+    border-radius: 0;
+    padding: 25px;
+  }
+
+.display-3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    color: white;
+}
+
+ hr.line {
+    border: .5px solid white;
+    width: 80%;
+ }
+
+
+#weekDay{
+  font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    /* letter-spacing: 5px; */
+    color:#904e95;
+    font-size:42px;
+    padding-bottom: 25px;
+}
+  #todayIs {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 52px;
+    color: #bd586f;
+    padding-bottom: 35px;
+  }
+
+  #currentTime {
+    font-family: 'Bebas Neue', sans-serif;
+     font-size: 42px;
+     color: #fcb7a6;
+     padding-bottom: 25px;
+ }
+  
+  .description{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    opacity: 0.8;
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px;
+    height: 80px
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px
+  }
+  
+  /* changes colors */
+  .hour {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  
+  .past {
+    background-color:rgba(233, 101, 68, 0.8);
+    color: white;
+  }
+  
+  .present {
+    background-color:rgba(188, 87, 111, 0.8);
+    color: white;
+  }
+  
+  .future {
+    background-color:rgba(144, 78, 149, 0.8);
+    color: white;
+  }
+  
+  .saveBtn {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: none;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+  /* ------------------------------------------------------------------------ */
+
+  @media only screen and (max-width: 992px) {
+    #todayIs {
+      font-size: 34px;
+      word-wrap: none;
+      padding-bottom: none;
+    }
+    #weekDay{
+      font-size: 24px;
+      padding-bottom: none;
+    }
+    #currentTime{
+      font-size: 24px;
+      padding-bottom: none;
+    }
+    .hour{
+      font-size: 22px ;
+    }
+  }
+
+  @media only screen and (max-width: 455px) {
+    #todayIs{
+      font-size:24px;
+    }
+    .hour{
+      font-size: 14px ;
+      padding-right: 15px;
+    }
+  }
